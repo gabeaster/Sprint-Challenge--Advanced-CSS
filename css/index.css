@@ -191,7 +191,7 @@ p {
   font-size: 1.5rem;
   text-decoration: none;
   color: #454A59;
-  padding: 2%;
+  padding: 2% 0;
   margin: 0;
   font-weight: 600;
 }
