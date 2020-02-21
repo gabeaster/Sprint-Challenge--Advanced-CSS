@@ -1,1 +1,29 @@
 // Navigation code here
+
+.nav-div{
+    .flex(column,center,center);
+    .padmarg(0,0);
+    background-color:@nav-bg;
+    h1{
+        font-size:4rem;
+        .padmarg(1.5%,0);
+    }
+
+    nav{
+        display:flex;
+        justify-content: space-between;
+        width:40%;
+
+        a{
+            font-size:1.5rem;
+            text-decoration:none;
+            color:@nav-font;
+            .padmarg(2% 0, 0);
+            font-weight:600;
+        }
+
+        @media @phone{
+            width:95%;
+        }
+    }
+}

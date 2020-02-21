@@ -1,1 +1,29 @@
 // Mixins Here
+.flex(@direction,@justify,@align){
+    display:flex;
+    flex-direction:@direction;
+    justify-content:@justify;
+    align-items:@align;
+}
+
+.padmarg(@padding,@margin){
+    padding:@padding;
+    margin:@margin;
+}
+
+//button parametric mixin
+
+.buttonstyles(@width,@radius,@fontsize){
+    display:block;
+    background-color: @btn-bg-color;
+    width:@width;
+    border-radius:@radius;
+    font-size:@fontsize;
+    color:@wild-sand;
+
+    &:hover{
+        background-color:@wild-sand;
+        color:@btn-bg-color;
+    }
+}
+
